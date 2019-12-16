@@ -7,7 +7,7 @@ function add_unsplash_credit() {
         var photog_user = el.src.replace(re, '$3');
     
         var credit_frag = `
-            <div style="text-align: right; font-size: x-small; background-color: white;">
+            <div style="text-align: right; font-size: x-small; width: 100%;">
                 photo credit: <a href="https://unsplash.com/@${photog_user}" target="_blank" rel="noopener noreferrer" title="Photo courtesy of ${photog_name} on Unsplash"><span style="display:inline-block;padding:2px 3px;">${photog_name}</span></a>
             </div>
         `;
