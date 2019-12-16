@@ -1,0 +1,13 @@
+.photo-credit {
+    width: 100%;
+    font-size: x-small;
+    text-align: right;
+    background: #fff;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    .photo-credit {
+        background: var(--darkmode);
+    }
+}
