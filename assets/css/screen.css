@@ -581,9 +581,9 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
         padding-left: 5vw;
     }
 
-    .site-nav-right {
+    /* .site-nav-right {
         display: none;
-    }
+    } */
 }
 
 
